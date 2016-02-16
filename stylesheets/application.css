@@ -6780,3 +6780,40 @@ div[style*="clear:both"], div[style*="clear: both"] {
 
   #top-menu, #header, #main-menu, #sidebar, #footer, .contextual, .other-formats, #wiki_add_attachment, .hide-when-print {
     display: none; } }
+/* DMSF PLUGIN */
+.controller-dmsf .icon-link:before, .controller-dmsf .icon-notification-on:before, .controller-dmsf .icon-notification-off:before, .controller-dmsf .icon-dmsf-lock:before, .controller-dmsf .icon-dmsf-unlock:before, .controller-dmsf .icon-dmsf-locked:before {
+  margin-right: 0.3em;
+  vertical-align: middle;
+  position: relative;
+  font-size: 1.2em;
+  top: -2px; }
+.controller-dmsf .icon-link:before, .controller-dmsf .icon-notification-on:before, .controller-dmsf .icon-notification-off:before, .controller-dmsf .icon-dmsf-lock:before, .controller-dmsf .icon-dmsf-unlock:before, .controller-dmsf .icon-dmsf-locked:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+.controller-dmsf .pull-left.icon-link:before, .controller-dmsf .pull-left.icon-notification-on:before, .controller-dmsf .pull-left.icon-notification-off:before, .controller-dmsf .pull-left.icon-dmsf-lock:before, .controller-dmsf .pull-left.icon-dmsf-unlock:before, .controller-dmsf .pull-left.icon-dmsf-locked:before {
+  margin-right: 0.3em; }
+.controller-dmsf .pull-right.icon-link:before, .controller-dmsf .pull-right.icon-notification-on:before, .controller-dmsf .pull-right.icon-notification-off:before, .controller-dmsf .pull-right.icon-dmsf-lock:before, .controller-dmsf .pull-right.icon-dmsf-unlock:before, .controller-dmsf .pull-right.icon-dmsf-locked:before {
+  margin-left: 0.3em; }
+.controller-dmsf .icon-link:before {
+  content: ""; }
+.controller-dmsf .icon-notification-on:before {
+  content: ""; }
+.controller-dmsf .icon-notification-off:before {
+  content: ""; }
+.controller-dmsf .icon-dmsf-lock:before {
+  content: ""; }
+.controller-dmsf .icon-dmsf-unlock:before {
+  content: ""; }
+.controller-dmsf .icon-dmsf-locked:before {
+  content: ""; }
+.controller-dmsf .plupload_logo {
+  display: none; }
+.controller-dmsf .plupload_header_content {
+  padding-left: 16px; }
+.controller-dmsf .plupload-header {
+  background: none;
+  background-color: #F2F2F2; }
